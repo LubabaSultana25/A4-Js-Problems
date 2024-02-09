@@ -21,3 +21,8 @@ function checkName(name) {
         return "Good Name";
     }
 }
+console.log(checkName("Salman")); // Output: Bad Name
+console.log(checkName("RAFEE")); // Output: Good Name
+console.log(checkName("Jhankar")); // Output: Bad Name
+console.log(checkName("199")); // Output: invalid
+console.log(checkName(["Rashed"])); // Output: invalid
